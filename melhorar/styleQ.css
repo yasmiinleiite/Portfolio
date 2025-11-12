@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	overflow: hidden;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	padding: 70px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('Girrassóis.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #4e2310;
+	font-weight: bold;
+}
+
+.conteiner {
+	width: 600px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 12px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conteiner::before {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 20px auto;
+	background-image: url('yasmin.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	border: 4px solid white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	font-size: 2.2em;
+	color: #4e2310;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #6b4e4b;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+h4 {
+	margin-top: 20px;
+	color: #4e2310;
+	font-size: 1.3em;
+	border-bottom: 2px solid #c49a6c;
+	display: inline-block;
+	padding-bottom: 4px;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.6;
+	margin: 15px 0;
+	color: black;
+}
+
+.conteiner:hover {
+	transform: scale(1.02);
+	transition: 0.3s ease;
+}
+
+.voltar {
+	background: transparent;
+	border: none;
+	color: #4e2310;
+	font-size: 2.5em;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.voltar:hover {
+	color: #c49a6c; 
+}
+
+.voltar:focus {
+	outline: none; 
+}

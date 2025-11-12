@@ -1,3 +1,4 @@
+// Exercício 31 - Calculadora
 const somar = (a, b) => a + b;
 const subtrair = (a, b) => a - b;
 const multiplicar = (a, b) => a * b;
@@ -42,6 +43,7 @@ function executarCalculadora() {
     }
 }
 
+// Exercício 32 - Verificar se pode tirar carta 
 function verificarCNH() {
     let idade = Number(prompt("Insira sua idade: "));
     if (idade >= 18) {
@@ -51,6 +53,7 @@ function verificarCNH() {
     }
 }
 
+// Exercício 33 - Pedir 3 números
 function pedirNumeros() {
     let num1 = parseFloat(prompt("Digite o primeiro número: "));
     let num2 = parseFloat(prompt("Digite o segundo número: "));
@@ -67,6 +70,7 @@ function pedirNumeros() {
     alert(`Os números em ordem crescente são: ${numeros.join(", ")}`);
 }
 
+// Exercício 34 - Conversão de horas
 function converterHoras() {
     let horas = parseFloat(prompt("Insira um número de horas: "));
     if (isNaN(horas) || horas < 0) {
@@ -77,6 +81,7 @@ function converterHoras() {
     }
 }
 
+// Exercício 35 - Calculo de cédulas
 function calcularCedulas() {
     let valor = prompt("Digite o valor desejado R$: ");
 

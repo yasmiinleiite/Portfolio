@@ -1,3 +1,4 @@
+// Exercício 26 - Raio do Círculo
 function raio_circulo() {
     let area = parseFloat(prompt("Digite a área do círculo: "));
     if (isNaN(area) || area <= 0) {
@@ -8,6 +9,7 @@ function raio_circulo() {
     }
 }
 
+// Exercício 27 - Volume do Cilindro 
 function volume_cilindro() {
     let raio = parseFloat(prompt("Digite o raio da base do cilindro: "));
     let altura = parseFloat(prompt("Digite a altura do cilindro: "));
@@ -19,6 +21,7 @@ function volume_cilindro() {
     }
 }
 
+// Exercício  28 - Area do Quadrado
 function area_quadrado() {
     let lado = parseFloat(prompt("Insira o lado do quadrado em cm (ex.: 120 cm): "));
     if (isNaN(lado) || lado <= 0) {
@@ -29,6 +32,7 @@ function area_quadrado() {
     }
 }
 
+// Exercício 29 - Jogo Adivinha
 function jogo_adivinha() {
     const numeroSecreto = Math.floor(Math.random() * 100) + 1;
     let tentativas = 10;
@@ -57,6 +61,7 @@ function jogo_adivinha() {
     }
 }
 
+// Exercício 30 - Simulção de banco
 function simular_banco() {
     let contas = {};
     let opcao = "";

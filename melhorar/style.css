@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	overflow: hidden;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	padding: 70px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('Girrassóis.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #4e2310;
+}
+
+.conteiner {
+	width: 500px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 12px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conteiner::before {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 20px auto;
+	background-image: url('yasmin.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	border: 4px solid white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	font-size: 2.2em;
+	color: #4e2310;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #6b4e4b;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+h4 {
+	margin-top: 20px;
+	color: #4e2310;
+	font-size: 1.3em;
+	border-bottom: 2px solid #c49a6c;
+	display: inline-block;
+	padding-bottom: 4px;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.8;
+	margin: 15px 0;
+	color: #4e2310;
+}
+
+.conteiner:hover {
+	transform: scale(1.02);
+	transition: 0.3s ease;
+}
+
+ul {
+	margin: auto;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav li {
+	font-size: 1.2rem;
+	display: inline;
+	align-items: center;
+	margin-right: 50px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

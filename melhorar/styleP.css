@@ -1,0 +1,42 @@
+/* Resetando margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais para o body */
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("Girrassóis.jpg"); /* Substitua pela imagem de fundo desejada */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #4e2310;
+  font-weight: bold;
+}
+
+/* Estilo para o conteúdo principal */
+.container {
+    width: 600px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 12px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flexbox;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #4e2310;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+
