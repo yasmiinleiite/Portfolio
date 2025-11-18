@@ -39,7 +39,6 @@ function exercicio5() {
     alert(`A diferença dos números inseridos é ${subtracao(num1, num2)}`)
 }
 
-// ---- Liga cada botão ao seu exercício ----
 document.getElementById("ex1").addEventListener("click", exercicio1)
 document.getElementById("ex2").addEventListener("click", exercicio2)
 document.getElementById("ex3").addEventListener("click", exercicio3)

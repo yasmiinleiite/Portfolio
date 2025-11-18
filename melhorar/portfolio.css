@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 70px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Girrassóis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #4e2310;
+}
+
+.container {
+  width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flexbox;
+  align-items: center;
+  align-content: center;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+a:link {
+  color: #4e2310;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4e2310;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #4e2310;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.voltar {
+	background: transparent;
+	border: none;
+	color: #4e2310;
+	font-size: 2.5em;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.voltar:hover {
+	color: #c49a6c; 
+}
+
+.voltar:focus {
+	outline: none; 
+}
+

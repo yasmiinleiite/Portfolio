@@ -39,14 +39,19 @@ body {
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
-	border: 4px solid white;
+	border: 4px solid #4e2310;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-	font-size: 2.2em;
+	font-size: 2.2em; 	
 	color: #4e2310;
 	margin-bottom: 10px;
+}
+
+h2{
+	color: #4e2310;
+	margin-bottom: 20px;
 }
 
 h3 {
